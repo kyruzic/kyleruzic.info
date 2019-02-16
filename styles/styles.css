@@ -9,24 +9,24 @@
     margin-left: 1rem;
 }
 
-
-#selfie { 
-    height: 300px;
-    width: 300px;
-    margin: 30px auto;
-    display: block;
-    border-radius: 50%;
-}
-
 #project-img {
-    display: block;
-    position: relative;
     border-radius: 5px;
     border-color: #00C7A9;
     border-width: 1px;
     border-style: solid;
 }
 
+#high-roll {
+    padding: 1rem;
+    border-width: 3px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: grey;
+    background-color: #88ffef;
+} 
+#high-roll p {
+    padding: 0 
+}
 main {
     font-size: 1.25rem;
 }
@@ -152,33 +152,23 @@ aside {
     padding-bottom: 1.25rem;
 }
 
-
+.project {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    top: 1rem;
+}
 .contact {
     width: 100%;
     float: left;
-}
-
-.description {
-    width: 55%;
-    float: left;
+    padding-top: 1rem;
 }
 
 .field { 
     padding-top: 0.5rem;
 }
 
-.cover {
-    float: right;
-    position: relative;
-    width: 40%;
-}
-
 .details {
     margin-left: 1.75rem;
-}
-
-.contact {
-    padding-top: 1rem;
 }
 
 .stars {
@@ -239,7 +229,7 @@ aside {
  
 .tabset > label:hover,
 .tabset > input:focus + label {
-  font-weight 800;
+  font-weight: 800;
 }
 
 .tabset > label:hover::after,

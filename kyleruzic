@@ -1,0 +1,14 @@
+server {
+    root /home/kyle/webDev/kyleruzicinfo;
+
+    index html/me.html index.html index.htm index.nginx-debian.html;
+    server_name kyleruzic.info www.kyleruzic.info;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+    listen 80;
+    listen [::]:80;
+}
+
+
